@@ -123,6 +123,48 @@ a{
 
 }
 
+.botonvolador{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    font-family: $Poppins;
+    text-align: center;
+
+    
+
+    .whatsapp-btn {
+    display: flex;
+    flex-direction: column; // icono arriba
+    align-items: center;
+
+    text-decoration: none;
+    color: #000;
+    line-height: 2;
+  }
+
+    i {
+    background-color: #25D366;
+    color: white;
+
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 15px;
+    font-size: 24px;
+  }
+
+}
+
+.fondobla{
+    background: rgba(255, 255, 255, 0.30); // blanco transparente
+    backdrop-filter: blur(10px); // efecto glass moderno
+    border-radius: 24px;
+}
+
 
 
 /*-------------------------------------------------------------- 
